@@ -1,1 +1,1 @@
-module.exports=require('./lib/numCode.js');
+module.exports=require('./dist');
