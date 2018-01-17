@@ -1,0 +1,11 @@
+{
+  "name": "get-number-code",
+  "version": "1.0.3",
+  "description": "This is a front-end verification code",
+  "main": "./lib/numCode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wangmao",
+  "license": "ISC"
+}
