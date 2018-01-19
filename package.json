@@ -1,14 +1,14 @@
 {
   "name": "get-number-code",
-  "version": "1.0.5",
+  "version": "1.1.2",
   "description": "This is a front-end verification code",
-  "main": "./dist/numCode.chunk.js",
+  "main": "./lib/numCode.js",
   "keywords": [
     "es6",
     "canvas"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "rimraf dist && webpack"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babel-runtime": "^6.26.0",
+    "rimraf": "^2.6.2",
     "webpack": "^3.10.0"
   }
 }
